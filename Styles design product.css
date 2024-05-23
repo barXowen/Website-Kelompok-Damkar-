@@ -1,0 +1,50 @@
+body  {
+    background-image: url(background\ Web.jpg); 
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02008e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+  background-color: #0400ff;
+}
+  
+.active {
+  background-color: #000000;
+}
+h1 {
+  color: white;
+}
+div h1 {
+  display: block;
+  background-color: black;
+}
+div h2 { 
+  float: left;
+  display: block;
+  background-color: #02008e;
+  list-style-type: none;
+}
+h2 {
+  color: white;
+}
